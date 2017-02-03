@@ -1,3 +1,13 @@
+nettle (3.2-1ubuntu0.16.04.1) xenial-security; urgency=medium
+
+  * SECURITY UPDATE: RSA cache timing side-channel attack
+    - debian/patches/CVE-2016-6489.patch: use mpz_powm_sec and check for
+      invalid keys in bignum.h, configure.ac, dsa-sign.c, rsa-blind.c,
+      rsa-sign-tr.c, rsa-sign.c, rsa.c, testsuite/rsa-test.c.
+    - CVE-2016-6489
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Fri, 03 Feb 2017 08:22:52 -0500
+
 nettle (3.2-1) unstable; urgency=medium
 
   * New upstream release.

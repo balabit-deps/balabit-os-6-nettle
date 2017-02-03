@@ -1,2 +1,3 @@
 fPIC.patch
 multiarch_dev.patch
+CVE-2016-6489.patch
